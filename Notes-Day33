@@ -1,0 +1,99 @@
+Notes- Day 33
+
+Errors: 
+
+TS2322 - String not assignable to number
+
+TS2551 - 'Age '
+
+
+TS2451 -Cannot redeclare block-scope variable again
+
+TS7006- parameter 'a' implicitly has any type...like we should declare type for every variable
+
+TS2588- cannot assign to "name" (constant)  bcoz it is a constant
+
+TS2540 - cannot assign value for cm
+
+TS2332- return type is different
+
+2300
+
+2531- null value deleted
+TS2779 - left hand side of an expression may not contain optional
+
+
+Angular related errors:
+
+1.NG8002- NgModel related error - import not there..
+
+
+2.NG8002- RouerLink related error - import RouterLink
+
+
+3.NG8004 -rupees not defined
+
+
+
+
+
+
+
+
+
+
+
+Morning:
+
+
+After break:
+
+1.Ngmodel and Roueterlink import error prgm
+
+
+
+2. ProvideHttpClient() include and not include...some injection error will come
+
+
+3.NG5002- using ngIf and ngFor on same template.error comes...
+
+4.@Input, using that, finding errors
+
+NG8002: can't bind to 'name'since it isn't a known property of app-errorcomponent
+
+
+5.Using Services:
+
+Services reference is used at Application and component level
+
+
+As @Injectable is there, so it is working in the app.ts constructor
+
+When providedIn is not there , it is showing noProvider there
+
+
+
+6.Prgm on load and subscribe
+
+NG0203 - Http Client token Injection failed
+
+
+7.Prgm on Circular Dependency Injection
+
+NG0200: we did prgm using 2 services A and B.
+
+
+
+
+
+Afternoon:
+
+Angular DevTools:
+
+
+
+Profiles, components,and Injection Tree
+Profiles- means graphical ones
+
+
+
